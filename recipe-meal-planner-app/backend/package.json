@@ -1,0 +1,36 @@
+{
+  "name": "recipe-meal-planner-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for Recipe and Meal Planner Application",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^3.0.0",
+    "@types/body-parser": "^1.19.6",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.23",
+    "@types/jest": "^27.0.1",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^16.11.7",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.9.5"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
